@@ -5,7 +5,7 @@ try:
 except ImportError:
         print("install selenium v2.53.6 , termcolor \n\tpip install selenium==2.53.6\n\tapt-get install python-termcolor")
 try:
-        print(colored("\n\t\tplease wait\n\n","red"))
+        print(colored("\n\t\tPorfavor Espera ...\n\n","red"))
         time.sleep(1)
         print(colored("===================================================","blue"))
         time.sleep(0.5)
@@ -13,15 +13,15 @@ try:
         time.sleep(0.5)
         print(colored("===================================================","blue"))
         time.sleep(0.5)
-        print(colored(""" ____  _            _            ___   ___  _ ""","red"))
+        print(colored(""" ____  ____  ____  ____  ____  ____  ____  ""","red"))
         time.sleep(0.5)
-        print(colored("""| __ )| | __ _  ___| | __  _ __ / _ \ / _ \| |_ ""","blue"))
+        print(colored("""||T ||||W ||||I ||||T ||||T ||||E ||||R || ""","blue"))
         time.sleep(0.5)
-        print(colored("""|  _ \| |/ _` |/ __| |/ / | '__| | | | | | | __|""","red"))
+        print(colored("""||__||||__||||__||||__||||__||||__||||__|| ""","red"))
         time.sleep(0.5)
-        print(colored("""| |_) | | (_| | (__|   <  | |  | |_| | |_| | |_ ""","blue"))
+        print(colored("""|/__\||/__\||/__\||/__\||/__\||/__\||/__\| ""","blue"))
         time.sleep(0.5)
-        print(colored("""|____/|_|\__,_|\___|_|\_\ |_|   \___/ \___/ \__|""","red"))
+        print(colored(""" ""","red"))
         time.sleep(0.5)
         print(colored("===================================================","blue"))
         time.sleep(0.5)
@@ -30,16 +30,16 @@ try:
         print(colored("===================================================","blue"))
         time.sleep(0.5)
         print(colored("""\n
-        \t _____          _ _   _            
-        \t|_   _|_      _(_) |_| |_ ___ _ __ 
-        \t  | | \ \ /\ / / | __| __/ _ \ '__|
-        \t  | |  \ V  V /| | |_| ||  __/ |   
-        \t  |_|   \_/\_/ |_|\__|\__\___|_|   
-        \t\t\tYouTube : Black rOOt
-        \t\t\tinstagram : 8mkj
+        \t   ____   ____       _       ____   _  __
+        \t  / ___| |  _ \     / \     / ___| | |/ /
+        \t | |     | |_) |   / _ \   | |     | ' / 
+        \t | |___  |  _ <   / ___ \  | |___  | . \ 
+        \t  \____| |_| \_\ /_/   \_\  \____| |_|\_\   
+        \t\t\tTwitter : Cyb3rMeth0d
+        \t\t\tFacebook : Chuss VK
         ""","blue"))
-        useroremail = raw_input("\nEnter the Username or Email >>: ")
-        password = raw_input("Enter the Password list >>: ")
+        useroremail = raw_input("\nIntroduce el Username >>: ")
+        password = raw_input("Introduce la Password list >>: ")
         web = webdriver.Firefox()
         web.delete_all_cookies()
         web.get("https://twitter.com/login?lang=en")
